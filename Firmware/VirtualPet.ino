@@ -2,17 +2,13 @@
 #include <TFT_eSPI.h>
 #include <Preferences.h>
 
-// =========================
 // Hardware configuration
-// =========================
 constexpr uint8_t ENCODER_PIN_A = 2;
 constexpr uint8_t ENCODER_PIN_B = 3;
 constexpr uint8_t ENCODER_BTN_PIN = 4;
 constexpr uint8_t TFT_BACKLIGHT_PIN = 8;
 
-// =========================
 // Game tuning constants
-// =========================
 constexpr uint32_t ONE_MINUTE_MS = 60000;
 constexpr uint32_t ONE_DAY_MS = 24UL * 60UL * ONE_MINUTE_MS;
 constexpr uint16_t LONG_PRESS_MS = 1200;
@@ -27,7 +23,7 @@ constexpr int8_t HUNGER_DECAY = 22;
 constexpr int8_t THIRST_DECAY = 18;
 constexpr int8_t HAPPINESS_DECAY = 24;
 
-// ============== Game enums ==============
+// Game enums
 enum class LifeStage : uint8_t {
   EGG = 0,
   BABY,
@@ -77,16 +73,14 @@ int lastEncA = HIGH;
 uint32_t btnPressedAt = 0;
 bool btnWasPressed = false;
 
-// ============================================
 // Utility helpers
-// ============================================
 const char *stageName(LifeStage s) {
   switch (s) {
     case LifeStage::EGG: return "Egg";
     case LifeStage::BABY: return "Baby";
     case LifeStage::CHILD: return "Child";
     case LifeStage::TEEN: return "Teen";
-    case LifeStage::ADULT: return "Adult Unicorn";
+    case LifeStage::ADULT: return "Adult";
   }
   return "Unknown";
 }
@@ -153,9 +147,7 @@ void setDisplaySleep(bool sleepOn) {
   }
 }
 
-// ============================================
 // Rendering
-// ============================================
 String starsString() {
   String s;
   for (uint8_t i = 0; i < pet.stars; ++i) s += "*";
@@ -306,9 +298,7 @@ void showToast(const String &msg, uint16_t color = TFT_ORANGE) {
   tft.print(msg);
 }
 
-// ============================================
 // Game logic
-// ============================================
 void applyDailyDecay() {
   if (!pet.started || !pet.alive) return;
 
@@ -458,9 +448,7 @@ void handleClock() {
   }
 }
 
-// ============================================
 // Input handling
-// ============================================
 void handleEncoderTurn() {
   int a = digitalRead(ENCODER_PIN_A);
   int b = digitalRead(ENCODER_PIN_B);
@@ -501,9 +489,7 @@ void handleEncoderButton() {
   }
 }
 
-// ============================================
 // Arduino entrypoints
-// ============================================
 void setup() {
   pinMode(ENCODER_PIN_A, INPUT_PULLUP);
   pinMode(ENCODER_PIN_B, INPUT_PULLUP);
