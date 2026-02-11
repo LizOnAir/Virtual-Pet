@@ -3,9 +3,9 @@
 #include <Preferences.h>
 
 // Hardware configuration
-constexpr uint8_t ENCODER_PIN_A = 2;
+constexpr uint8_t ENCODER_PIN_A = 4;
 constexpr uint8_t ENCODER_PIN_B = 3;
-constexpr uint8_t ENCODER_BTN_PIN = 4;
+constexpr uint8_t ENCODER_BTN_PIN = 1;
 constexpr uint8_t TFT_BACKLIGHT_PIN = 8;
 
 // Game tuning constants
