@@ -25,9 +25,11 @@ Watch your pet evolve from egg into adult!
 
 I used the ESP32-C3 symbol to represent the actual ESP32-C6 super mini devboard.
 
-## BOM:
+## BOM: 
 I bought all my components from Shopee.
 Here should be everything you need:
+
+[BOM sheet](https://docs.google.com/spreadsheets/d/1Gu8EAeMuP7jPY-7Sot2dqIwXOdPaqRVpIezr-Qfe_cQ/edit?usp=sharing)
 
 - 1x [rotary encoder](https://shopee.com.my/-1PC-EC11-Rotary-Encoder-with-Push-Button-Digital-Encoder-with-Switch-i.78840338.12269123655)
 - 1x [1.3inch TFT display](https://shopee.com.my/TFT-Display-0.96-1.3-1.44-1.77-1.8-2.4-2.8-inch-IPS-7P-SPI-HD-65K-TFT-Full-Color-LCD-Module-ST7735-Drive-IC-80*160-For-Arduino-i.299149454.21474104300)
