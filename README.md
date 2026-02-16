@@ -6,8 +6,8 @@ Tamagotchi is so popular right now that almost everyone got one, however it was 
 Both case are fit together via simple snap click joints.
 It has 3 separate printed pieces. The base, the top cover and a case for the rotary encoder.
 
-<img width="408" height="364" alt="Screenshot 2026-02-11 at 1 53 06 PM" src="https://github.com/user-attachments/assets/f1fcb992-660a-4b87-a335-03acd38e23c6" />
-<img width="642" height="419" alt="Screenshot 2026-02-11 at 2 10 16 PM" src="https://github.com/user-attachments/assets/63b60916-f49d-4d31-b603-2619499ab3a4" />
+<img width="569" height="507" alt="Screenshot 2026-02-16 at 2 54 13 PM" src="https://github.com/user-attachments/assets/24e02540-e4aa-42d4-a4a0-49e80db8294c" />
+<img width="600" height="543" alt="Screenshot 2026-02-16 at 2 54 41 PM" src="https://github.com/user-attachments/assets/e15aff1e-e13f-4114-b899-7bd231488a51" />
 <img width="449" height="486" alt="Screenshot 2026-02-11 at 2 11 14 PM" src="https://github.com/user-attachments/assets/ec0fb24f-fcb6-460d-a091-fec24e67106e" />
 <img width="449" height="486" alt="Screenshot 2026-02-11 at 2 11 39 PM" src="https://github.com/user-attachments/assets/3eebbe7b-6634-470a-a9e2-437c95b39638" />
 
